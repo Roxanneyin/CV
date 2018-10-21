@@ -1,0 +1,237 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,11pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[BoldFont = Fontin Bold, ItalicFont = Fontin Italic, UprightFont  = Fontin Regular,
+%SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+%\setromanfont{Helvetica}
+\usepackage{xunicode, xltxtra, url,parskip} % Formatting packages
+%xunicode,xltxtra,
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage{fancyhdr}
+\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\pagestyle{fancy}
+\lhead{\footnotesize \parbox{11cm}{Applicant:Yuan (Roxanne) Yin } }
+\chead{\footnotesize Curriculum Vitae}
+\rhead{\footnotesize Ph.D. Program in ORIE }
+\makeatother
+\usepackage{hyperref} % Required for adding links	and customizing them
+
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+%\usepackage{perpage} %the perpage package
+%\MakePerPage{footnote} %the perpage package command
+%\usepackage{footmisc}
+%\usepackage{footnote}
+%\usepackage[perpage,symbol]{footmisc}
+\usepackage{footnote}
+\usepackage{longtable}
+\pagenumbering{gobble}
+\begin{document}
+
+%\pagestyle{empty} % Removes page numbering
+\thispagestyle{fancy}
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%-------------------------------------- --------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{tabular*}{6in}{l@{\extracolsep{\fill}}r}
+	\textbf{{\huge Yuan Yin}}
+		& {Email: \href{mailto:yuanyin@umich.edu}{yuanyin@umich.edu}}\\
+	    & {Phone:734-263-6901}\\
+        & {Address:2361 Bishop Ave, apt 05}\\
+        & {Ann Arbor, Michigan}\\
+    \end{tabular*}
+\\
+
+\section{Education}
+
+\begin{tabular}{p{4cm}|p{11cm}}
+
+\multicolumn{2}{c}{}\\
+Sep. 2017 - present  & Department of Mathematics\\
+Graduate Study & University of Michigan, Ann Arbor\\
+& \emph{Master of Science in Quantitative Finance and Risk Management}\\
+& {\bf Course highlights:}  Computational Finance, Stochastic Analysis for Finance, Statistical Models and Methods for Financial Data, Time Series Analysis, Machine Learning\\
+\multicolumn{2}{c}{}\\
+
+\multicolumn{2}{c}{}\\
+Sep. 2013 - Jun. 2017 & School of Mathematical Sciences\\
+Undergraduate Study & Beijing Normal University\\
+& \emph{Bachelor of Science in Mathematics and Applied Mathematics}\\
+& {\bf Course highlights:}  Advanced Algebra, Mathematical Modeling, Real Analysis, Functional Analysis, Topology\\
+\multicolumn{2}{c}{}\\
+
+\multicolumn{2}{c}{}\\
+Summer 2016  & Department of Economics\\
+Exchange Student & College of William \& Mary\\
+& {\bf Course highlights:}  Intl Finance/Open Economics (Grade:A)\\
+\multicolumn{2}{c}{}\\
+
+\multicolumn{2}{c}{}\\
+Research Interests &Applied probability and statistics, Financial Engineering, Mathematical Finance, Stochastic Control\\
+
+\end{tabular}
+
+\section{ Honors \& Awards }
+
+\begin{savenotes}
+\begin{tabular}{p{2cm}|p{13cm}}
+
+ 2014-2016 & Merit JingShi Academic Scholarship (BNU, top 10\%)\\
+ 2014-2016 & Third Prize of Spring and Autumn Scholarship (BNU)\\
+ Mar.2016 & "Outstanding" in National Computer Rank Examination (C programming, top 10\%)\\
+ Jan.2016 & Mathematical Contest in Modeling of America(MCM, Honorable Mention):
+
+ \emph{Optimal strategy of Water Temperature when Bathing in a Tub}\\
+ Nov.2015 & \href{http://2015.igem.org/Team:BNU-CHINA/Team}{International Genentically Engineered Machine Competition} (iGEM, Sliver Award):
+
+ \emph{Synthetic Intelligent Ranger E.coli for Nematodes (SIRENS)}\\
+ Oct.2015 & China Undergraduate Mathematical Contest in Modeling (CUMCM):
+
+ \emph{Identify Geographical Location from Sun Shadow}\\
+ Jan.2013 & Second Prize in the National Mathematical Olympics\\
+
+\end{tabular}
+\end{savenotes}
+
+\section{Research Experiences}
+
+\begin{longtable}{p{4cm}|p{11cm}}
+
+\multicolumn{2}{c}{}\\
+Aug.2018 - Present& ?????????????????????\\
+& College of Engineering (IOE), UMich - Ann Arbor\\
+& \footnotesize{Advisor: Professor Romesh Saigal \& Ph.D. Abdullah Alshelahi}\\
+& \footnotesize{$\diamondsuit$  Descriptions: ??????????????????????????????????????????????}\\
+
+\multicolumn{2}{c}{}\\
+Nov. 2018 - Dec. 2018 &  Machine Learning?????\\
+& College of Engineering (EECS), UMich - Ann Arbor\\
+& \footnotesize{Advisor: Professor Clayton Scott}\\
+& \footnotesize{$\diamondsuit$ Descriptions: ????????????}\\
+
+\multicolumn{2}{c}{}\\
+Jun. 2018 - Jul. 2018 & Social Network Structure Analysis on Team Resilience\\
+& Ross School of Business, UMich - Ann Arbor\\
+& \footnotesize{Advisor: \href{https://michiganross.umich.edu/faculty-research/faculty/maxim-sytch}{Associate Professor Maxim Sytch}}\\
+& \footnotesize{$\diamondsuit$ Discription: I studied \emph{Social Network Analysis} written by \emph{Stanley Wasserman and Katherine Faust} and finished reading journal \emph{Environmental Demands and the Emergence of Social Structure}, learned about structure recovery and consistency of a team when some team members leave or come back; Also I mined thousands of NHL data (which is about Hockey game and team information) on the website with using scraping method in R.}\\
+
+\multicolumn{2}{c}{}\\
+May.2015 - May.2016 & Image Segmentation Based on Geodesic Active Contours Model\\
+& Department of Mathematics, BNU\\
+& \footnotesize{Advisor: Associate Professor Jun Liu}\\
+& \footnotesize{$\diamondsuit$ Descriptions: I finished reading tens of papers regarding on researches of Geodesic Active Contours which focus on 2D images segementation, also including the paper \emph{Geodesic Active Contours} written by \emph{Vicent Caselles, Ron Kimmel, Guillermo Sapiro}. I successfully derived PDE stated in this paper which represents geodesic flow deciding the process of segmentation on 2D images: $\frac{\partial \mathcal{C}(t)}{\partial t} = Q(I)\kappa \vec{\mathcal{N}} - (\nabla Q \cdot \vec{\mathcal{N}})\vec{\mathcal{N}} + \sqrt{E_0} \kappa \vec{\mathcal{N}}$, and I successfully realized it on MATLAB with iterative algorithm that can converge quickly. Then I realized the idea which can make segmentation of some simple 3D surface with explicit equations. I learned and realized transformation algorithm to map 3D surface into 2D space and then mapped segmented images back to 3D surface, which is a method that can segment analogous 3D surfaces.}\\
+
+\end{longtable}
+
+\section{Internship \& Teaching Experiences}
+
+\begin{longtable}{p{4cm}|p{11cm}}
+
+\multicolumn{2}{c}{}\\
+Jun.2017 - Aug.2017 & China Construction Bank\\
+& Manager Assistant - Liaoning, China\\
+& \footnotesize{$\diamondsuit$  Description: I completed rotational position in accounting, credit and financial market departments from where I authenticated checks and audited applications from clients with strict attention to detail. Also I performed data entry and opened checking accounts for clients. And I built strong communication skills by negotiating return rates with other banks.}\\
+
+\multicolumn{2}{c}{}\\
+Jan. 2017 - Apr. 2017 &  Horizon Robotics\\
+& Data Specialist - Beijing, China\\
+& \footnotesize{$\diamondsuit$ I worked in 
+intelligent security department to develop system that can help monitoring traffic by artificial intelligence instantly. I mined traffic monitoring video data online and screen frame periodically, then marked and modified key feature of objectives like pedestrians and vehicles as training data used by machine learning.}\\
+
+\multicolumn{2}{c}{}\\
+Jun. 2014 - Aug. 2014 &  Home tutor\\
+& \footnotesize{$\diamondsuit$ I previewed math, physics and chemistry systematically for a senior high school student and designed homework questions aiming at her weaknesses.}\\
+
+\end{longtable}
+
+\section{Other Experiences}
+
+\begin{longtable}{p{4cm}|p{11cm}}
+
+\multicolumn{2}{c}{}\\
+2015 - 2016 & Pigen Youth Volunteer Association\\
+& Beijing, China\\
+& \footnotesize{$\diamondsuit$ Taught aged people how to use Microsoft office and Photoshop in Xi Cheng Library}\\
+
+\multicolumn{2}{c}{}\\
+Jun.2015 & International Youth Leadership Program\\
+& Zhuhai \& Beijing, China\\
+& \footnotesize{$\diamondsuit$ Finished Investigation and the report of \emph{Professionalization of Social Work in China} with team member}\\
+& \footnotesize{$\diamondsuit$ Held up workshops to introduce Chinese culture to college students from University of Yale, Oxford, Birmingham etc.}\\
+&\footnotesize{$\diamondsuit$ Held up closing ceremony for the program}\\
+\end{longtable}
+
+\section{Seminars \& Short Courses}
+
+\begin{tabular}{p{2cm}|p{13cm}}
+
+Oct.2018 & Equilibrium option price with competing market makers\\
+& Organized by Asst Prof. Ibrahim Ekren\\
+
+\multicolumn{2}{c}{}\\
+Apr.2018 & Math Colloquium/Inaugural Van Eenam Lecture\\
+& Organized by Prof. Nizar Touzi\\
+
+\multicolumn{2}{c}{}\\
+Jan.2018 & Pricing Models Popular in Finance Industry\\
+& Organized by Alexander Wugalter (Senior Quantitative Researcher)\\
+
+\multicolumn{2}{c}{}\\
+Jan.2018 & Building Trading Algorithms from Scratch\\
+& Organized by Dimitri Liakakos (Quantitative Trader)\\
+
+\multicolumn{2}{c}{}\\
+Nov.2017 & Risk Modeling in Banking \& Wells Fargo Quantitative Associate Program\\
+& Organized by Prof. Vijay Nair\\
+
+\end{tabular}
+
+\section{Skills}
+
+\begin{tabular}{p{2.5cm}|p{12.5cm}}
+
+\multicolumn{2}{c}{}\\
+Programming & \href{https://github.com/Roxanneyin}{Python (proficient), Tensorflow (familiar), R (frequent), C (familiar)}\\
+
+\multicolumn{2}{c}{}\\
+Software & \href{https://github.com/Roxanneyin}{MATLAB (proficient), R Markdown (frequent), LaTex (frequent)}\\
+
+\end{tabular}
+\end{document}
